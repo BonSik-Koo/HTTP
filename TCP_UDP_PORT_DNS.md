@@ -16,8 +16,15 @@ __<특징>__
 - 연결지향 -TCP 3 way handshake(가상연결)
 - 데이터 전달 보증              
 - 순서 보장              
+
 ![image](https://user-images.githubusercontent.com/96917871/154248351-69ef7bd4-e022-4664-ae7a-5382ac5c6e9e.png)
 - 클라이언트에서 (1)"synchronize(SYN)" 접속요청을 서버에게 전송하게 되고 (2)서버 측에서 요청수락(ACK)와 접속 요청을 보내게 된다. (3)마지막으로 클라이언트에서 요청수락(ACK)을 보내게 되어 connect을 맺게된다. -> TCP는 이러한 과정의 연결방식을 하게 된다.
+![image](https://user-images.githubusercontent.com/96917871/154248958-ccf94391-ba49-4bf0-a8ea-b5e5d209ba4d.png)
+
+__
+
+
+
  
 
 
