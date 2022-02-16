@@ -65,3 +65,18 @@ __<응답(Response 메시지)>__
 - HTTP버전 -> HTTP/1.1
 - HTTP 상태 코드 -> 요청 성공,실패를 나타냄 --> 200:성공, 400:클라이언트 요청 오류, 500:서버 내부 오류
 - 이유 문구(reason-phrase) -> 사람이 이해할수 있는 짧은 상태 코드 설명 글
+
+
+__HTTP 헤더__
+---------------------------------
+![image](https://user-images.githubusercontent.com/96917871/154292662-1a65bd3e-9423-4e62-9ade-82847e0de96d.png)
+
+- hearder-field => field-name":" OWS field-value OWS (OWS:띄어쓰기 허용) -> field-name: Host, Context-Type, Context-Length / filed-value: www.google.com, text/html......
+- HTTP 전송에 필요한 모든 부가정보 
+- 예) 메시지 바디의 내용, 메시지 바디의 크기, 압축, 인증, 요청 클라이언트(브라우저) 정보, 서버 애플리케이션 정보, 캐시 관리 정보..
+
+
+__HTTP 메시지 바디(__
+-------------------------------
+- 실제 전송할 데이터
+- HTML 문서, 이미지, 영상, JSON 등등 byte로 표현할 수 있는 모든 데이터 전송 가능
