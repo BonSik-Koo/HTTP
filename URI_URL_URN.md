@@ -21,5 +21,5 @@ __URN__
 
 __URL의 문법__
 ===================
-__scheme://[userinfo@]host[:port][/path][?query][#fragment]__ -> __
+__scheme://[userinfo@]host[:port][/path][?query][#fragment]__ -> __https://www.google.com:443/search?q=hello&hl=ko__
 
